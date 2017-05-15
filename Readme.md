@@ -1319,6 +1319,7 @@ The following flags are sent by default on a new connection:
 - `LONG_PASSWORD` - Use the improved version of Old Password Authentication.
 - `MULTI_RESULTS` - Can handle multiple resultsets for COM_QUERY.
 - `ODBC` Old; no effect.
+- `PLUGIN_AUTH` - Supports auth plugins (specifically, `mysql_old_password` and `mysql_native_password`)
 - `PROTOCOL_41` - Uses the 4.1 protocol.
 - `PS_MULTI_RESULTS` - Can handle multiple resultsets for COM_STMT_EXECUTE.
 - `RESERVED` - Old flag for the 4.1 protocol.
@@ -1339,7 +1340,6 @@ available to specify.
 - COMPRESS
 - INTERACTIVE
 - NO_SCHEMA
-- PLUGIN_AUTH
 - REMEMBER_OPTIONS
 - SSL
 - SSL_VERIFY_SERVER_CERT
